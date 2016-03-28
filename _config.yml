@@ -1,0 +1,44 @@
+# Site settings
+title: Brodal Blomster
+email: brodalblomster@hanskristoffer.dk
+description: Vi har mange smukke sommerblomster bl.a. frøkenhat i alle farver, morgenfruer, asters, marmelukærmer, brudeslør, stolt kavalér, georginer, og flere forskellige ...
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://brodalblomster.dk" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+# Include og exclude
+# include: ['']
+# exclude: ['']
+
+# Prose
+prose:
+  media: /assets/img/
+  siteurl: http://brodalblomster.dk/
+  ignore:
+    - .gitattributes
+    - 404.html
+    - Gemfile
+    - gemfile.lock
+    - .gitignore
+    - _config.yml
+    - index.html
+    - _includes
+    - _plugins
+    - _site
+    - assets
+    - _layouts
+    - CNAME
+    - _data
+
+# Prose.io
+prose:
+  media: assets/img
+
+  metadata:
+    _posts:
+
+
+collections:
+  - sider

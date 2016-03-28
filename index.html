@@ -1,0 +1,12 @@
+---
+layout: default
+title: Brodal Selvpluk
+---
+
+<div id="content">
+  {% for side in site.sider %}
+  {% if side.title == 'startside' %}
+  {{ side.content }}
+  {% endif %}
+  {% endfor %}
+</div>
